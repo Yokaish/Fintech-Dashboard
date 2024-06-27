@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+
+:root {
+    --cinza-fundo: #454545;
+    --cinza-escuro: #2F2F2F;
+    --laranja: #FA781A;
+    --branco: #f5f5f5;
+    --logo-font: "Krona One", sans-serif;
+    --main-font: "Lexend", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--cinza-fundo);
+    min-height: 100vh;
+    color: var(--branco);
+}
+
+p {
+    font-family: var(--main-font);
+    font-size: 0.9;
+    margin: 0;
+    font-weight: 300;
+}
+
+.container-logo {
+    margin: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.logo-text {
+    font-family: var(--logo-font);
+    color: var(--branco);
+    font-size: 1rem;
+}
+
+.user-img {
+    height: 30px;
+    width: 30px;
+}
+
+.btn-logo {
+    height: 32px;
+    width: 32px;
+}
+
+.custom-bg {
+    background-color: var(--laranja);
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.user-welcome {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.custom-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.custom-bg-grey {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cinza-escuro);
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+.large-card {
+    display: flex;
+    align-items: center;
+}
+
+.dots-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dots {
+    font-size: 1.2rem;
+}
+
+.eye {
+    height: 16px;
+}
+
+.user-money {
+    display: flex;
+}
+
+.user-money-eye {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.arrow-go {
+    height: 20px;
+}
+
+.boleto-logo {
+    height: 26px;
+}
+
+.boleto {
+    width: 42px;
+}
+
+.custom-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0; 
+}
+
+.card-col {
+    flex: 1;
+    margin: 0 8px; 
+}
+
+
+
